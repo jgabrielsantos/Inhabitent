@@ -20,6 +20,11 @@ get_header(); ?>
     </div><!-- #primary -->
     <div class="shop">
         <h2>SHOP STUFF</h2>
+    </div>
+    
+    <div class="journal">
+        <?php endforeach; wp_reset_postdata(); ?>
+        <h2>INHABITENT JOURNAL</h2>
         <?php
             $args = array( 'post_type' => 'post', 'numberposts' => '3' );
             $posts = get_posts( $args ); // returns an array of posts
@@ -28,14 +33,8 @@ get_header(); ?>
         <?php foreach ( $posts as $post ) : setup_postdata( $post ); 
         ?>
             
-            <h3> <?php the_title(); ?> </h3>
-            <?php the_post_thumbnail( 'thumbnail' ) ?>
-    
-        <?php endforeach; wp_reset_postdata(); ?>
-    </div>
-
-    <div class="journal">
-
+            <h3 class="title"> <?php the_title(); ?> </h3>
+            <img class="" src="<?php the_post_thumbnail( 'thumbnail' ) ?>" alt="article picture">
     </div>
 
 <?php get_footer(); ?>

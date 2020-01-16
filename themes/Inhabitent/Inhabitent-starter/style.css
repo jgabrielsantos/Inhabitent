@@ -778,13 +778,12 @@ footer {
   .footer-logo img {
     min-width: 298px; }
 
-.header {
-  color: #d99054; }
-
 .footer-block {
   margin: 3rem 0;
   padding-right: 1.5rem;
   width: 25%; }
+  .footer-block .header {
+    color: #d99054; }
 
 .footer-footer {
   display: -webkit-box;

@@ -30,14 +30,13 @@ footer {
     }
 }
 
-.header {
-    color: #d99054;
-}
-
 .footer-block {
     margin: 3rem 0;
     padding-right: 1.5rem;
     width: 25%;
+    .header {
+        color: #d99054;
+    }
 }
 
 .footer-footer {
