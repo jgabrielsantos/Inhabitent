@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+}
+
+footer {
+    color: #ffffff;
+    margin: 15px auto 0;
+    background-image: url(../../project-04/images/dark-wood@2x.png);
+    background-size: 35.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-info {
+    width: 1120px;
+}
+
+.footer-logo {
+    margin-top: 1rem;
+    margin-left: 30%;
+    img {
+        min-width: 298px;
+    }
+}
+
+.header {
+    color: #d99054;
+}
+
+.footer-block {
+    margin: 3rem 0;
+    padding-right: 1.5rem;
+    width: 25%;
+}
+
+.footer-footer {
+    display: flex;
+    justify-content: center;
+}

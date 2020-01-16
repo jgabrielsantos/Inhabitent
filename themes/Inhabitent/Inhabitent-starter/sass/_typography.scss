@@ -17,6 +17,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+	font-family: 'Novecento Sans Web';
 }
 
 /* Copy */
@@ -65,4 +66,10 @@ mark, ins {
 
 big {
 	font-size: 125%;
+}
+
+/* All Page */
+
+body {
+	font-family: 'Merriweather Web';
 }

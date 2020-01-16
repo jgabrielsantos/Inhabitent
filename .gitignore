@@ -8,14 +8,14 @@
 
 # Ignore everything in "plugins" except certain plugins. #
 plugins/*
-# unignore plugins that I'll create
-
+!plugins/Product_type
 # Ignore everything in "themes" except the active theme. #
 themes/*
 !themes/Inhabitent/
 
 # Ignore packages #
 themes/Inhabitent/node_modules/
+themes/Inhabitent/project-04/content/*
 
 # Ignore OS files #
 .DS_Store

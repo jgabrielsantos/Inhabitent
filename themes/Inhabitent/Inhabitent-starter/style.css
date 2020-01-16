@@ -225,6 +225,54 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+/**
+    * Sample @font-face rules for Merriweather
+*/
+@font-face {
+  font-family: 'Merriweather Web';
+  src: url("../../project-04/fonts/Merriweather/fonts");
+  src: url("../../project-04/fonts/Merriweather/fonts/?#iefix") format("embedded-opentype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.woff2") format("woff2"), url("../../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.woff") format("woff"), url("../../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.ttf") format("truetype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather Web';
+  src: url("../../project-04/fonts/Merriweather/fonts");
+  src: url("../../project-04/fonts/Merriweather/fonts/?#iefix") format("embedded-opentype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("../../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("../../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather Web';
+  src: url("../../project-04/fonts/Merriweather/fonts");
+  src: url("../../project-04/fonts/Merriweather/fonts/?#iefix") format("embedded-opentype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.woff") format("woff"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather Web';
+  src: url("../../project-04/fonts/Merriweather/fonts");
+  src: url("../../project-04/fonts/Merriweather/fonts/?#iefix") format("embedded-opentype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("../../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+/**
+    * Sample @font-face rules for Novocento
+*/
+@font-face {
+  font-family: 'Novecento Sans Web';
+  src: url("../../project-04/fonts/Novecento/fonts");
+  src: url("../../project-04/fonts/Novecento/fonts/?#iefix") format("embedded-opentype"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.woff2") format("woff2"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Novecento Sans Web';
+  src: url("../../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.eot");
+  src: url("../../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("../../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -241,7 +289,8 @@ textarea {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  font-family: 'Novecento Sans Web'; }
 
 /* Copy */
 p {
@@ -282,6 +331,10 @@ mark, ins {
 
 big {
   font-size: 125%; }
+
+/* All Page */
+body {
+  font-family: 'Merriweather Web'; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -670,3 +723,73 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+/*--------------------------------------------------------------
+# About Page
+--------------------------------------------------------------*/
+.post-11 .page {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.hero-image-header {
+  height: 100vh; }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1120px; }
+
+footer {
+  color: #ffffff;
+  margin: 15px auto 0;
+  background-image: url(../../project-04/images/dark-wood@2x.png);
+  background-size: 35.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.site-info {
+  width: 1120px; }
+
+.footer-logo {
+  margin-top: 1rem;
+  margin-left: 30%; }
+  .footer-logo img {
+    min-width: 298px; }
+
+.header {
+  color: #d99054; }
+
+.footer-block {
+  margin: 3rem 0;
+  padding-right: 1.5rem;
+  width: 25%; }
+
+.footer-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
