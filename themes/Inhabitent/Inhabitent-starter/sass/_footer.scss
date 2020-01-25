@@ -8,7 +8,7 @@
     width: 1120px;
 }
 
-footer {
+.site-footer {
     color: #ffffff;
     margin: 15px auto 0;
     background-image: url(../../project-04/images/dark-wood@2x.png);
@@ -24,7 +24,6 @@ footer {
 
 .footer-logo {
     margin-top: 1rem;
-    margin-left: 30%;
     img {
         min-width: 298px;
     }
@@ -37,6 +36,26 @@ footer {
     .header {
         color: #d99054;
     }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-info-wraper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .footer-footer {

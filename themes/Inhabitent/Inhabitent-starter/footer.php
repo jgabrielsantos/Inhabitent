@@ -17,9 +17,21 @@
 						<div class="footer-block">
 							<div class="contact-info">
 								<h3 class="header">CONTACT INFO</h3>
-								<p class="contact email">EMAIL info@inhabitent.com</p>
-								<p class="contact phone">PHONE 779-456-7891</p>
-								<p class="social-media">Facebook Twitter Google+</p>
+								<div class="contact-info-wraper">
+									<b class="fas fa-envelope">info@inhabitent.com</b>
+									<br/>
+								</div>
+
+								<div class="contact-info-wraper">
+									<b class="fas fa-phone-alt">778-456-7891</b>
+									<br/>
+								</div>
+								
+								<div class="social-media">
+									<b class="fab fa-facebook-square"></b>
+									<b class="fab fa-twitter-square"></b>
+									<b class="fab fa-google-plus-square"></b>
+								</div>
 							</div>
 						</div>
 	

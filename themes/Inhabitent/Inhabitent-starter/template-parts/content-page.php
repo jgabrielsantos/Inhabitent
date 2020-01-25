@@ -19,6 +19,7 @@
 				'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
 				'after'  => '</div>',
 			) );
+			
 		?>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->

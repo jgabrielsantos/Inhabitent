@@ -12,6 +12,11 @@
 		<?php if ( has_post_thumbnail() ) : ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
+		
+
+		<img src="<?php echo CFS()->get('Image'); ?>" alt="">
+		<p><?php echo CFS()->get('Price') ?></p>
+
 
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 

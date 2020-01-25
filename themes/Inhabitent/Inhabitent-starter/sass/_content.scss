@@ -3,6 +3,20 @@
 --------------------------------------------------------------*/
 
 /* Posts and pages */
+.site-content {
+	padding-top: 50px;
+}
+
+.page-id-107 {
+	.site-content {
+		padding-top: 0;
+	}
+}
+
+.content-area {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
 
 .sticky {
 	display: block;
@@ -27,9 +41,67 @@
 	margin: $base__space-unit 0 0;
 }
 
+.entry-content {
+	margin: 1.5rem 0 0;
+}
+
+.entry-header {
+	line-height: 0;
+	position: relative;
+}
+
+.blog {	
+	.entry-title {
+		background-color: #248a83;
+		color: #fff;
+		font-size: 2.1rem;
+		left: 0;
+		padding: .75rem 1.5rem;
+		position: absolute;
+		margin-top: 2.25rem;
+		max-width: 75%;
+		top: 0;
+		line-height: 1.25;
+		
+		a {
+			color: #fff;
+		}
+	}
+}
+.entry-meta {
+	background-color: #248a83;
+	bottom: 0;
+	color: #fff;
+	display: inline-block;
+	font-family: Novecento Sans Web,sans-serif;
+	padding: 1.00005rem 1.5rem;
+	position: absolute;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.comments-link {
+	color: #fff;
+}
+
 .page-links {
 	clear: both;
 	margin: 0 0 $base__space-unit;
+}
+
+.entry-footer {
+	a {
+		color: #248a83;
+	}
+}
+
+.cat-links {
+    margin-right: 1.5rem;
+}
+
+.cat-links .tag-links {
+	display: inline-block;
+	text-transform: uppercase;
 }
 
 /* Asides */
