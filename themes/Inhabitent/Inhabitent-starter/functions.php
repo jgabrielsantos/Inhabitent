@@ -67,6 +67,19 @@ function red_starter_widgets_init() {
 }
 add_action( 'widgets_init', 'red_starter_widgets_init' );
 
+function footer_sidebar() {
+	register_sidebar( array(
+		'name'          => esc_html( 'Footer' ),
+		'id'            => 'footer_sidebar',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'footer_sidebar' );
+
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */

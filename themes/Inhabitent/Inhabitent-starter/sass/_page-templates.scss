@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 /* Hero Image */
-.page-id-107 {
+.home {
     .content-area {
         padding-top: 0;
     }
@@ -165,7 +165,7 @@
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.page-id-11 {
+.page-about {
     .site-content {
         padding-top: 0;
         .content-area {
@@ -379,6 +379,24 @@
     }
 }
 
+.page-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .taxonomy-description {
+        margin: 2rem auto 3rem;
+        max-width: 800px;
+        p {
+            color: #404040;
+            font-family: Merriweather Web,serif;
+            font-size: 1rem;
+            line-height: 1.75;
+            font-weight: normal;
+        }
+    }
+}
 
 /*--------------------------------------------------------------
 # Find Us
@@ -387,3 +405,77 @@
     margin-top: 0;
 }
 
+/*--------------------------------------------------------------
+# Single
+--------------------------------------------------------------*/
+.single-create_product_type {
+    .create_product_type {
+        display: flex;
+        justify-content: space-between;    
+        .entry-header {
+            background-color: #e1e1e1;
+            width: 262px;
+            height: 304px;
+            overflow: hidden;
+            position: relative;
+    
+            img {
+                height: 250px;
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .entry-title {
+                bottom: 14px;
+                left: 10px;
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 1.75;
+                text-transform: none;
+            }
+    
+            p {
+                position: absolute;
+                bottom: 15px;
+                right: 20px;
+            }
+        }
+    }
+}
+
+.create_product_type {
+    display: flex;
+    justify-content: space-between;    
+    .entry-header {
+        background-color: #e1e1e1;
+        width: 262px;
+        height: 304px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            height: 250px;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .entry-title {
+            bottom: 14px;
+            left: 10px;
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 1.75;
+            text-transform: none;
+        }
+
+        p {
+            position: absolute;
+            bottom: 15px;
+            right: 20px;
+        }
+    }
+}

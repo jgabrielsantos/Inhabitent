@@ -13,7 +13,7 @@
     <?php endif; ?>
 </p>
 
-<!-- <p>
+<p>
     <?php if (strlen(trim($facebook)) > 0) : ?>
         <span class="facebook"><i class="fab fa-facebook-square"></i></span>
         <a href=""><?php echo $facebook; ?></a>
@@ -28,11 +28,11 @@
 </p>
 
 <p>
-    <?php if (strlen(trim($location)) > 0) : ?>
+    <?php if (strlen(trim($google)) > 0) : ?>
         <span class="google"><i class="fab fa-google-plus-square"></i></span>
         <a href=""><?php echo $google; ?></a>
     <?php endif; ?>
-</p> -->
+</p>
 
 <p>
     <?php if (strlen(trim($location)) > 0) : ?>

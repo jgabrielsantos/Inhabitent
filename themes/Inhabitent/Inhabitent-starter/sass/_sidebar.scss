@@ -82,7 +82,7 @@
     }
 }
 
-.page-id-13 {
+.page-contact {
     .site-content {
         display: flex;
         width: 1120px;
@@ -126,7 +126,7 @@
     }
 }
 
-.page-id-160 {
+.page-search {
     .site-content {
         width: 1120px;
         display: flex;
@@ -163,5 +163,11 @@
         .google {
             display: none;
         }
+    }
+}
+
+.single {
+    .widget-area {
+        display: none;
     }
 }

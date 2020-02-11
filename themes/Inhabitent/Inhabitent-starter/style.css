@@ -786,7 +786,7 @@ object {
 # Homepage
 --------------------------------------------------------------*/
 /* Hero Image */
-.page-id-107 .content-area {
+.home .content-area {
   padding-top: 0; }
 
 .homepage-hero-wraper {
@@ -990,9 +990,9 @@ object {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.page-id-11 .site-content {
+.page-about .site-content {
   padding-top: 0; }
-  .page-id-11 .site-content .content-area {
+  .page-about .site-content .content-area {
     padding-top: 0; }
 
 .about-header {
@@ -1163,6 +1163,30 @@ object {
 .tax-product_taxonomy .widget-area {
   display: none; }
 
+.page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-title .taxonomy-description {
+    margin: 2rem auto 3rem;
+    max-width: 800px; }
+    .page-title .taxonomy-description p {
+      color: #404040;
+      font-family: Merriweather Web,serif;
+      font-size: 1rem;
+      line-height: 1.75;
+      font-weight: normal; }
+
 /*--------------------------------------------------------------
 # Find Us
 --------------------------------------------------------------*/
@@ -1170,9 +1194,74 @@ object {
   margin-top: 0; }
 
 /*--------------------------------------------------------------
+# Single
+--------------------------------------------------------------*/
+.single-create_product_type .create_product_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .single-create_product_type .create_product_type .entry-header {
+    background-color: #e1e1e1;
+    width: 262px;
+    height: 304px;
+    overflow: hidden;
+    position: relative; }
+    .single-create_product_type .create_product_type .entry-header img {
+      height: 250px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    .single-create_product_type .create_product_type .entry-header .entry-title {
+      bottom: 14px;
+      left: 10px;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 1.75;
+      text-transform: none; }
+    .single-create_product_type .create_product_type .entry-header p {
+      position: absolute;
+      bottom: 15px;
+      right: 20px; }
+
+.create_product_type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .create_product_type .entry-header {
+    background-color: #e1e1e1;
+    width: 262px;
+    height: 304px;
+    overflow: hidden;
+    position: relative; }
+    .create_product_type .entry-header img {
+      height: 250px;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto; }
+    .create_product_type .entry-header .entry-title {
+      bottom: 14px;
+      left: 10px;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 1.75;
+      text-transform: none; }
+    .create_product_type .entry-header p {
+      position: absolute;
+      bottom: 15px;
+      right: 20px; }
+
+/*--------------------------------------------------------------
 # About Page
 --------------------------------------------------------------*/
-.post-11 .page {
+.page-about .page {
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1423,7 +1512,7 @@ object {
   .single-post .widget .google {
     display: none; }
 
-.page-id-13 .site-content {
+.page-contact .site-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1432,33 +1521,33 @@ object {
   margin-right: auto;
   padding-top: 50px; }
 
-.page-id-13 .content-area {
+.page-contact .content-area {
   width: 70%;
   border-right: 1px solid #e1e1e1;
   padding-right: 5%;
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
-.page-id-13 .widget-area {
+.page-contact .widget-area {
   width: 30%;
   padding-left: 5%; }
 
-.page-id-13 .widget {
+.page-contact .widget {
   margin: 0 0 3rem; }
-  .page-id-13 .widget ul {
+  .page-contact .widget ul {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0; }
-  .page-id-13 .widget a {
+  .page-contact .widget a {
     color: #248a83;
     background-color: transparent;
     text-decoration: none; }
-    .page-id-13 .widget a:hover {
+    .page-contact .widget a:hover {
       color: #2f1339; }
-  .page-id-13 .widget .google {
+  .page-contact .widget .google {
     display: none; }
 
-.page-id-160 .site-content {
+.page-search .site-content {
   width: 1120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1466,26 +1555,29 @@ object {
   margin-left: auto;
   margin-right: auto; }
 
-.page-id-160 .content-container {
+.page-search .content-container {
   width: 70%;
   border-right: 1px solid #e1e1e1;
   padding-right: 5%;
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
-.page-id-160 .widget-area {
+.page-search .widget-area {
   width: 30%;
   padding-left: 5%; }
 
-.page-id-160 .widget {
+.page-search .widget {
   margin: 0 0 3rem; }
-  .page-id-160 .widget ul {
+  .page-search .widget ul {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0; }
-  .page-id-160 .widget a {
+  .page-search .widget a {
     color: #248a83;
     background-color: transparent;
     text-decoration: none; }
-  .page-id-160 .widget .google {
+  .page-search .widget .google {
     display: none; }
+
+.single .widget-area {
+  display: none; }
