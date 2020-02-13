@@ -1,64 +1,41 @@
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
-.parent {
-    display: flex;
-    justify-content: space-between;
-    width: 1120px;
-}
-
-.site-footer {
+footer {
     color: #ffffff;
-    margin: 15px auto 0;
     background-image: url(../../project-04/images/dark-wood@2x.png);
     background-size: 35.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.site-info {
-    width: 1120px;
-}
-
-.footer-logo {
-    margin-top: 1rem;
-    img {
-        min-width: 298px;
+    .first-grid-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-}
 
-.footer-block {
-    margin: 3rem 0;
-    padding-right: 1.5rem;
-    width: 25%;
-    .header {
+    .widget-area{
+        grid-column: 1 / span 2;
+        margin-left: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .widget-title {
         color: #d99054;
     }
-}
 
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
+    .social-media-icons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+    }
 
-.contact-info-wraper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.social-media {
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.footer-footer {
-    display: flex;
-    justify-content: center;
+    .contact {
+        display: flex;
+        a{
+            padding-left: 10px;
+        }
+    }
+    .site-info {
+        display: flex;
+        justify-content: center;
+    }
 }

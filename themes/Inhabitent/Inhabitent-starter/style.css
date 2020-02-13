@@ -1280,86 +1280,41 @@ object {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.parent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 1120px; }
-
-.site-footer {
+footer {
   color: #ffffff;
-  margin: 15px auto 0;
   background-image: url(../../project-04/images/dark-wood@2x.png);
-  background-size: 35.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.site-info {
-  width: 1120px; }
-
-.footer-logo {
-  margin-top: 1rem; }
-  .footer-logo img {
-    min-width: 298px; }
-
-.footer-block {
-  margin: 3rem 0;
-  padding-right: 1.5rem;
-  width: 25%; }
-  .footer-block .header {
+  background-size: 35.5%; }
+  footer .first-grid-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  footer .widget-area {
+    grid-column: 1 / span 2;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  footer .widget-title {
     color: #d99054; }
-
-.contact-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start; }
-
-.contact-info-wraper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-
-.social-media {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
-
-.footer-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  footer .social-media-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 30%; }
+  footer .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    footer .contact a {
+      padding-left: 10px; }
+  footer .site-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
 /*--------------------------------------------------------------
 # Header
