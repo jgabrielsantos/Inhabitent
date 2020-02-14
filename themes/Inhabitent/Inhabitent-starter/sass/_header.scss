@@ -39,7 +39,7 @@
     }
 }
 
-.page-id-107 {
+.page-homepage {
     .site-header {
         border-bottom: 0px;
     }
@@ -55,7 +55,7 @@
     }
 }
 
-.page-id-11 {
+.page-about {
     .site-header {
         border-bottom: 0px;
     }
@@ -88,4 +88,40 @@
 
 .menu-item{
     margin: auto 10px;
+}
+
+.menu-container {
+    display: flex;
+}
+
+/* search form toggle */
+.search-fieldset {
+    border: none;
+    display: flex;
+}
+
+.hide-search {
+    .search-field{
+        border: none;
+        width: 0;
+    }
+}
+
+.search-field {
+    transition: width 2s;
+    width: 150px;
+    border: none;
+    margin-left: 15px;
+    background: transparent;
+    text-transform: uppercase;
+    
+}
+.display-search {
+    .search-field{
+        display:block;
+        border: none;
+        &:focus {
+            color: #e1e1e1;
+        }
+    }
 }

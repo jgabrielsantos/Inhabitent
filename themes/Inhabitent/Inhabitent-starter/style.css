@@ -1355,28 +1355,28 @@ footer {
     .site-header a:hover {
       color: #2f1339; }
 
-.page-id-107 .site-header {
+.page-homepage .site-header {
   border-bottom: 0px; }
 
-.page-id-107 h1 {
+.page-homepage h1 {
   background-image: url(../../project-04/images/logos/inhabitent-logo-tent-white.svg); }
 
-.page-id-107 a {
+.page-homepage a {
   color: #e1e1e1;
   display: block; }
-  .page-id-107 a:hover {
+  .page-homepage a:hover {
     color: #f0e4d1; }
 
-.page-id-11 .site-header {
+.page-about .site-header {
   border-bottom: 0px; }
 
-.page-id-11 h1 {
+.page-about h1 {
   background-image: url(../../project-04/images/logos/inhabitent-logo-tent-white.svg); }
 
-.page-id-11 a {
+.page-about a {
   color: #e1e1e1;
   display: block; }
-  .page-id-11 a:hover {
+  .page-about a:hover {
     color: #f0e4d1; }
 
 .homepage-logo {
@@ -1398,6 +1398,37 @@ footer {
 
 .menu-item {
   margin: auto 10px; }
+
+.menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* search form toggle */
+.search-fieldset {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.hide-search .search-field {
+  border: none;
+  width: 0; }
+
+.search-field {
+  -webkit-transition: width 2s;
+  transition: width 2s;
+  width: 150px;
+  border: none;
+  margin-left: 15px;
+  background: transparent;
+  text-transform: uppercase; }
+
+.display-search .search-field {
+  display: block;
+  border: none; }
+  .display-search .search-field:focus {
+    color: #e1e1e1; }
 
 /*--------------------------------------------------------------
 # Sidebar
