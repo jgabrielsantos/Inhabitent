@@ -45,11 +45,13 @@
     </p>
 </div>
 
-<p>
-    <?php if (strlen(trim($location)) > 0) : ?>
-        <span class="location">
-            <i class="fas fa-map-marker-alt"></i>
-            <p><?php echo $location; ?></p>
-        </span>
-    <?php endif; ?>
-</p>
+<div class="location-icon">
+    <p>
+        <?php if (strlen(trim($location)) > 0) : ?>
+            <span class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="location-input"><?php echo $location ?></p>
+            </span>
+        <?php endif; ?>
+    </p>
+</div>

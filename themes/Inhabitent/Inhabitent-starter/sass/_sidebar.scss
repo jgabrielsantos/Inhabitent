@@ -1,173 +1,52 @@
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
-.blog{
-    .site-content {
-        width: 1120px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .content-container {
-        width: 70%;
-        border-right: 1px solid #e1e1e1;
-        padding-right: 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-
-    .widget-area {
-        width: 30%;
-        padding-left: 5%;
-    }
-
-    .widget {
-        margin: 0 0 3rem;
-        ul {
-            list-style-type: none;
-            margin-left: 0;
-            padding-left: 0;
-        }
-        
-        a {
-            color: #248a83;
-            background-color: transparent;
-            text-decoration: none;
-        }
-        .google {
-            display: none;
-        }
-    }
+.site-content {
+    width: 1120px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.single-post {
-    .site-content {
-        display: flex;
-        width: 1120px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 50px;
-    }
-
-    .content-area {
-        width: 70%;
-        border-right: 1px solid #e1e1e1;
-        padding-right: 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-
-    .widget-area {
-        width: 30%;
-        padding-left: 5%;
-    }
-
-    .widget {
-        margin: 0 0 3rem;
-        ul {
-            list-style-type: none;
-            margin-left: 0;
-            padding-left: 0;
-        }
-        
-        a {
-            color: #248a83;
-            background-color: transparent;
-            text-decoration: none;
-        }
-        .google {
-            display: none;
-        }
-    }
+.content-container {
+    width: 70%;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
-.page-contact {
-    .site-content {
-        display: flex;
-        width: 1120px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 50px;
-    }
-
-    .content-area {
-        width: 70%;
-        border-right: 1px solid #e1e1e1;
-        padding-right: 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-
-    .widget-area {
-        width: 30%;
-        padding-left: 5%;
-    }
-
-    .widget {
-        margin: 0 0 3rem;
-        ul {
-            list-style-type: none;
-            margin-left: 0;
-            padding-left: 0;
-        }
-        
-        a {
-            color: #248a83;
-            background-color: transparent;
-            text-decoration: none;
-            &:hover {
-                color: #2f1339;
-            }
-        }
-        .google {
-            display: none;
-        }
-    }
+.sidebar {
+    width: 30%;
+    padding-left: 5%;
 }
 
-.page-search {
-    .site-content {
-        width: 1120px;
+.widget {
+    margin: 0 0 3rem;
+    ul {
+        list-style-type: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    a {
+        color: #248a83;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .google {
+        display: none;
+    }
+    .location-icon {
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
+    }
+    .location-input {
+        margin-left: 5px;
     }
 
-    .content-container {
-        width: 70%;
-        border-right: 1px solid #e1e1e1;
-        padding-right: 5%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-
-    .widget-area {
-        width: 30%;
-        padding-left: 5%;
-    }
-
-    .widget {
-        margin: 0 0 3rem;
-        ul {
-            list-style-type: none;
-            margin-left: 0;
-            padding-left: 0;
-        }
-        
-        a {
-            color: #248a83;
-            background-color: transparent;
-            text-decoration: none;
-        }
-        .google {
-            display: none;
-        }
-    }
 }
 
 .single {
-    .widget-area {
+    .sidebar {
         display: none;
     }
 }
