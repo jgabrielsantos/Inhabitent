@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../project-04/images/home-hero.jpg) no-repeat top;
+    background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../images/home-hero.jpg) no-repeat top;
     background-size: cover;
 
 }
@@ -408,43 +408,6 @@
 /*--------------------------------------------------------------
 # Single
 --------------------------------------------------------------*/
-.single-create_product_type {
-    .create_product_type {
-        display: flex;
-        justify-content: space-between;    
-        .entry-header {
-            background-color: #e1e1e1;
-            width: 262px;
-            height: 304px;
-            overflow: hidden;
-            position: relative;
-    
-            img {
-                height: 250px;
-                width: auto;
-                margin-left: auto;
-                margin-right: auto;
-            }
-    
-            .entry-title {
-                bottom: 14px;
-                left: 10px;
-                font-size: 1rem;
-                font-weight: 400;
-                letter-spacing: 0;
-                line-height: 1.75;
-                text-transform: none;
-            }
-    
-            p {
-                position: absolute;
-                bottom: 15px;
-                right: 20px;
-            }
-        }
-    }
-}
-
 .create_product_type {
     display: flex;
     justify-content: space-between;    
@@ -476,6 +439,12 @@
             position: absolute;
             bottom: 15px;
             right: 20px;
+        }
+
+        .comments-link {
+            a {
+                color: #e1e1e1;
+            }
         }
     }
 }

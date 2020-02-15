@@ -15,7 +15,7 @@
 						<?php dynamic_sidebar( 'footer_sidebar' ); ?>
 					</div>
 					<div class="footer-logo">
-						<img src="<?php echo get_stylesheet_uri() ?>/project-04/images/logos/inhabitent-logo-tent.svg" alt="Footer Logo">
+						<img src="images/logos/inhabitent-logo-tent.svg" alt="Footer Logo">
 					</div>
 				</div>
 				<div class="site-info">

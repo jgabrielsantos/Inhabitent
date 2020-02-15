@@ -12,7 +12,7 @@ get_header(); ?>
             
             <div class="homepage-hero-wraper">
                 <div class="homepage-hero">
-                    <?php $hero_image = get_template_directory_uri() . '/project-04/images/logos/inhabitent-logo-full.svg' ?>
+                    <?php $hero_image = get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg' ?>
                     <a href="/wordpress/">
                         <img src=" <?php echo $hero_image ?> " alt="Homepage Logo">
                     </a>
@@ -29,7 +29,7 @@ get_header(); ?>
                             <?php foreach($term as $term): ?>
                                 <div class="category">
                                     <div class="product-logo">
-                                        <?php $logo =  get_template_directory_uri() . '/project-04/images/product-type-icons/' . $term->name . '.svg' ?>
+                                        <?php $logo =  get_template_directory_uri() . '/images/product-type-icons/' . $term->name . '.svg' ?>
                                         <img src="<?php echo $logo; ?>" alt="logo">
                                     </div>
 
