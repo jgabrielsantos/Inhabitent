@@ -1099,6 +1099,9 @@ object {
 /*--------------------------------------------------------------
 # Shop
 --------------------------------------------------------------*/
+.page-homepage .site-content, .page-homepage .content-area, .page-about .site-content, .page-about .content-area, .post-type-archive .site-content, .post-type-archive .content-area {
+  width: 100vw; }
+
 .shop-header {
   border-bottom: 1px dashed #c8c8c8;
   margin-bottom: 3rem;
@@ -1196,38 +1199,43 @@ object {
 /*--------------------------------------------------------------
 # Single
 --------------------------------------------------------------*/
-.create_product_type {
+.single-create_product_type main article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .create_product_type .entry-header {
-    background-color: #e1e1e1;
-    width: 262px;
-    height: 304px;
-    overflow: hidden;
-    position: relative; }
-    .create_product_type .entry-header img {
-      height: 250px;
-      width: auto;
-      margin-left: auto;
-      margin-right: auto; }
-    .create_product_type .entry-header .entry-title {
-      bottom: 14px;
-      left: 10px;
-      font-size: 1rem;
-      font-weight: 400;
-      letter-spacing: 0;
-      line-height: 1.75;
-      text-transform: none; }
-    .create_product_type .entry-header p {
-      position: absolute;
-      bottom: 15px;
-      right: 20px; }
-    .create_product_type .entry-header .comments-link a {
-      color: #e1e1e1; }
+          justify-content: space-between;
+  border: none; }
+
+.single-create_product_type main .single-product-image-wrapper {
+  width: 48%; }
+
+.single-create_product_type main .single-product-content-wrapper {
+  padding-left: 20px;
+  width: 48%; }
+
+.single-create_product_type main .entry-header {
+  overflow: visible;
+  width: 100%;
+  height: auto;
+  background-color: transparent; }
+  .single-create_product_type main .entry-header .entry-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    font-size: 2.5rem;
+    color: #d99054;
+    position: static;
+    background-color: transparent; }
+
+.single-create_product_type main .entry-content {
+  padding-top: 0;
+  display: compact; }
+
+.single-create_product_type main .price {
+  font-size: 1.8rem; }
 
 /*--------------------------------------------------------------
 # About Page
@@ -1326,28 +1334,16 @@ object {
     .site-header a:hover {
       color: #2f1339; }
 
-.page-homepage .site-header {
+.page-homepage .site-header, .page-about .site-header {
   border-bottom: 0px; }
 
-.page-homepage h1 {
+.page-homepage h1, .page-about h1 {
   background-image: url(../../images/logos/inhabitent-logo-tent-white.svg); }
 
-.page-homepage a {
+.page-homepage a, .page-about a {
   color: #e1e1e1;
   display: block; }
-  .page-homepage a:hover {
-    color: #f0e4d1; }
-
-.page-about .site-header {
-  border-bottom: 0px; }
-
-.page-about h1 {
-  background-image: url(../../project-04/images/logos/inhabitent-logo-tent-white.svg); }
-
-.page-about a {
-  color: #e1e1e1;
-  display: block; }
-  .page-about a:hover {
+  .page-homepage a:hover, .page-about a:hover {
     color: #f0e4d1; }
 
 .homepage-logo {

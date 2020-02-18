@@ -298,6 +298,11 @@
 /*--------------------------------------------------------------
 # Shop
 --------------------------------------------------------------*/
+.page-homepage, .page-about, .post-type-archive {
+    .site-content, .content-area {
+        width: 100vw;;
+    }
+}
 .shop-header {
     border-bottom: 1px dashed #c8c8c8;
     margin-bottom: 3rem;
@@ -408,43 +413,41 @@
 /*--------------------------------------------------------------
 # Single
 --------------------------------------------------------------*/
-.create_product_type {
-    display: flex;
-    justify-content: space-between;    
-    .entry-header {
-        background-color: #e1e1e1;
-        width: 262px;
-        height: 304px;
-        overflow: hidden;
-        position: relative;
-
-        img {
-            height: 250px;
-            width: auto;
-            margin-left: auto;
-            margin-right: auto;
+.single-create_product_type {
+    main {
+        article {
+            display: flex;
+            justify-content: space-between;
+            border: none;
         }
-
-        .entry-title {
-            bottom: 14px;
-            left: 10px;
-            font-size: 1rem;
-            font-weight: 400;
-            letter-spacing: 0;
-            line-height: 1.75;
-            text-transform: none;
+        .single-product-image-wrapper {
+            width: 48%;
         }
-
-        p {
-            position: absolute;
-            bottom: 15px;
-            right: 20px;
+        .single-product-content-wrapper {
+            padding-left: 20px;
+            width: 48%;
         }
+        .entry-header {
+            overflow: visible;
+            width: 100%;
+            height: auto;
+            background-color: transparent;
 
-        .comments-link {
-            a {
-                color: #e1e1e1;
+            .entry-title {
+                display: flex;
+                padding: 0;
+                font-size: 2.5rem;
+                color: #d99054;
+                position: static;
+                background-color: transparent;
             }
+        }
+        .entry-content {
+            padding-top: 0;
+            display: compact;
+        }
+        .price {
+            font-size: 1.8rem;
         }
     }
 }

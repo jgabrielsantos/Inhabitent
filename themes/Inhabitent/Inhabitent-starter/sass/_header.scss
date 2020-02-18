@@ -39,28 +39,12 @@
     }
 }
 
-.page-homepage {
+.page-homepage, .page-about {
     .site-header {
         border-bottom: 0px;
     }
     h1 {
         background-image: url(../../images/logos/inhabitent-logo-tent-white.svg);
-    }
-    a {
-        color: #e1e1e1;
-        display: block;
-        &:hover {
-            color: #f0e4d1;
-        }
-    }
-}
-
-.page-about {
-    .site-header {
-        border-bottom: 0px;
-    }
-    h1 {
-        background-image: url(../../project-04/images/logos/inhabitent-logo-tent-white.svg);
     }
     a {
         color: #e1e1e1;
