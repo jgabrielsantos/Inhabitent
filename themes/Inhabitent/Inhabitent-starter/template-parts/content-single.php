@@ -15,6 +15,7 @@
     <div class="single-product-content-wrapper">
         <header class="entry-header">
             <h1 class="entry-title"><?php the_title(); ?></h1> </header>
+            <img src="<?php the_post_thumbnail( 'large' ); ?>" alt="">
         <!-- .entry-header -->
 
         <div class="entry-content">
