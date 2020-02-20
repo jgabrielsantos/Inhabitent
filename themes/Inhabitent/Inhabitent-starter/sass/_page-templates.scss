@@ -349,7 +349,6 @@
         }
 
         .entry-title {
-            position: absolute;
             bottom: 14px;
             left: 10px;
             font-size: 1rem;
@@ -409,6 +408,43 @@
 .entry-title {
     margin-top: 0;
 }
+
+
+/*--------------------------------------------------------------
+# Search
+--------------------------------------------------------------*/
+.search-results {
+    article {
+        margin: 50px auto;
+        border: none;
+
+        .page-header {
+            display: flex;
+
+            .page-title {
+                display: inline;
+            }
+        }
+
+        .entry-header {
+            display: flex;
+            background-color: transparent;
+            height: auto;
+            .entry-title {
+                position: compact;
+                a {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .entry-meta {
+            display: none;
+        }
+    }
+}
+
 
 /*--------------------------------------------------------------
 # Single

@@ -1142,7 +1142,6 @@ object {
       margin-left: auto;
       margin-right: auto; }
     .create_product_type .entry-header .entry-title {
-      position: absolute;
       bottom: 14px;
       left: 10px;
       font-size: 1rem;
@@ -1195,6 +1194,32 @@ object {
 --------------------------------------------------------------*/
 .entry-title {
   margin-top: 0; }
+
+/*--------------------------------------------------------------
+# Search
+--------------------------------------------------------------*/
+.search-results article {
+  margin: 50px auto;
+  border: none; }
+  .search-results article .page-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .search-results article .page-header .page-title {
+      display: inline; }
+  .search-results article .entry-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    height: auto; }
+    .search-results article .entry-header .entry-title {
+      position: compact; }
+      .search-results article .entry-header .entry-title a {
+        font-size: 1.5rem;
+        font-weight: bold; }
+  .search-results article .entry-meta {
+    display: none; }
 
 /*--------------------------------------------------------------
 # Single
