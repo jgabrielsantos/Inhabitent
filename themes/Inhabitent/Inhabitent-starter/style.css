@@ -1,9 +1,9 @@
 /*!
-Theme Name: Inhabitent
+Theme Name: RED Starter Theme
 Theme URI: http://underscores.me/
-Author: Joao Gabriel Santo
+Author: RED Academy
 Author URI: http://www.redacademy.com
-Description: Inhabitent Theme.
+Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -1270,7 +1270,8 @@ object {
     grid-column: 1 / span 2;
     margin-left: 15%;
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    padding-top: 5%; }
   .site-footer .widget-title {
     color: #d99054; }
   .site-footer .social-media-icons {
@@ -1294,6 +1295,18 @@ object {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  .site-footer .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 15%;
+    padding-top: 15%; }
 
 /*--------------------------------------------------------------
 # Header
