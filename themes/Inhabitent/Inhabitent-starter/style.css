@@ -1218,8 +1218,6 @@ object {
       .search-results article .entry-header .entry-title a {
         font-size: 1.5rem;
         font-weight: bold; }
-  .search-results article .entry-meta {
-    display: none; }
 
 /*--------------------------------------------------------------
 # Single
