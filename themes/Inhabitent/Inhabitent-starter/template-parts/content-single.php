@@ -14,9 +14,16 @@
 
     <div class="single-product-content-wrapper">
         <header class="entry-header">
-            <h1 class="entry-title"><?php the_title(); ?></h1> </header>
-            <?php the_post_thumbnail( 'large' ); ?>
-        <!-- .entry-header -->
+            <h1 class="entry-title"><?php the_title(); ?></h1>
+
+            <div class="entry-image">
+                <?php the_post_thumbnail( 'large' ); ?>
+            </div>
+
+            <div class="entry-meta">
+                <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+            </div><!-- .entry-meta -->
+        </header><!-- .entry-header -->
 
         <div class="entry-content">
             <p class="price"><?php echo CFS()->get('Price') ?></p>
