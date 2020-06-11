@@ -5,6 +5,7 @@
 !themes/
 !uploads/
 !README.md
+!Homepage_Screenshot.png
 
 # Ignore everything in "plugins" except certain plugins. #
 plugins/*
