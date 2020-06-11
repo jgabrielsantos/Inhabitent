@@ -481,5 +481,21 @@
         .price {
             font-size: 1.8rem;
         }
+        .entry-meta{
+            display: none;
+        }
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Archive
+--------------------------------------------------------------*/
+.archive {
+    .taxonomy-posts {
+        display: flex;
+        article {
+            width: 100%;
+        }
     }
 }

@@ -1260,6 +1260,19 @@ object {
 .single-create_product_type main .price {
   font-size: 1.8rem; }
 
+.single-create_product_type main .entry-meta {
+  display: none; }
+
+/*--------------------------------------------------------------
+# Archive
+--------------------------------------------------------------*/
+.archive .taxonomy-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .archive .taxonomy-posts article {
+    width: 100%; }
+
 /*--------------------------------------------------------------
 # About Page
 --------------------------------------------------------------*/
