@@ -476,7 +476,7 @@
         }
         .entry-content {
             padding-top: 0;
-            display: compact;
+            display: block;
         }
         .price {
             font-size: 1.8rem;
@@ -496,6 +496,28 @@
         display: flex;
         article {
             width: 100%;
+        }
+    }
+}
+
+
+/*--------------------------------------------------------------
+# 404
+--------------------------------------------------------------*/
+.error404{
+    .site-content{
+
+        .content-area{
+            width: 75%;
+            
+            .page-content{
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+        .sidebar{
+            padding: 0;
         }
     }
 }
