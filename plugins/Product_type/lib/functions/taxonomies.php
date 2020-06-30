@@ -42,7 +42,7 @@ function create_product_taxonomy() {
 		'show_tagcloud'              => true,
 		'show_in_rest'               => true,
 	);
-	register_taxonomy( 'create_product_taxonomy', array( 'create_product_type' ), $args );
+	register_taxonomy( 'product_taxonomy', array( 'create_product_type' ), $args );
 
 }
 add_action( 'init', 'create_product_taxonomy', 0 );

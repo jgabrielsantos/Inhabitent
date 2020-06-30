@@ -29,7 +29,7 @@ get_header(); ?>
                             <?php foreach($term as $term): ?>
                                 <div class="category">
                                     <div class="product-logo">
-                                        <?php $logo =  get_template_directory_uri() . '/images/product-type-icons/' . $term->name . '.svg' ?>
+                                        <?php $logo =  get_template_directory_uri() . '/images/product-type-icons/' . $term->slug . '.svg' ?>
                                         <img src="<?php echo $logo; ?>" alt="logo">
                                     </div>
 
