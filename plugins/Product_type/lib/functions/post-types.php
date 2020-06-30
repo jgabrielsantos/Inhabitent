@@ -45,6 +45,7 @@ function create_product_type() {
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor' ),
 		'hierarchical'          => false,
+		'taxonomies'            => array( 'Product Taxonomies' ),
 		'public'                => true,
 		'show_ui'               => true,
 		'show_in_menu'          => true,
